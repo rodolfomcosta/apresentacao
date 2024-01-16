@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/home-section.css">
     <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/skills-section.css">
+    <link rel="stylesheet" href="assets/css/experience-section.css">
+    <link rel="stylesheet" href="assets/css/education-section.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +19,8 @@
     <title>Apresentação</title>
 </head>
 <body>
-
-    <div class="main-bg">
-        <section class="home-section" id="home-section">
+    <div class="dark-bg">
+        <section class="home-section page-section" id="home-section">
             <div class="menu-container">
                 <a href="curriculo.pdf" download="D:\Estudos\Projetos\apresentacao\curriculo.pdf" class="download">
                     Currículo
@@ -35,88 +37,258 @@
                             <a href="#skills-section">Habilidades</a>
                         </li>
                         <li>
-                            <a href="#experience-section">Experiências</a>
+                            <a href="#education-section">Formação</a>
+                        </li>
+                        <li>
+                            <a href="#experience-section">Experiência</a>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="menu-spacing"></div>
-            <div class="section-container">
-                <div class="basic-container greeting-container">
-                    <div class="greeting-content">
-                        <div class="img-profile">
-                            <img src="assets/images/foto_perfil.jpg" alt="Uma foto de   perfil onde estou com óculos
-                                de grau e camisa cinza olhando de frente para a câmera" id="perfil-photo">
-                        </div>
-                        <div class="description-profile">
-                            <p class="greeting">
-                                Olá, estudo
-                            </p>
-                            <h1 id="career_name">
-                                análise de dados
-                            </h1>
-                            <p class="greeting">
-                                e me chamo
-                            </p>
-                            <h2 id="name">
-                                Rodolfo Maia
-                            </h2>
-                        </div>
+            <div class="basic-container greeting-container">
+                <div class="greeting-content">
+                    <div class="img-profile">
+                        <img src="assets/images/foto_perfil.jpg" alt="Uma foto de   perfil onde estou com óculos
+                            de grau e camisa cinza olhando de frente para a câmera" id="perfil-photo">
+                    </div>
+                    <div class="description-profile">
+                        <p class="greeting">
+                            Olá, estudo
+                        </p>
+                        <h1 id="career_name">
+                            análise de dados
+                        </h1>
+                        <p class="greeting">
+                            e me chamo
+                        </p>
+                        <h2 id="name">
+                            Rodolfo Maia
+                        </h2>
                     </div>
                 </div>
-                <hr>
-                <div class="basic-container basic-information-container">
-                    <article class="about-description">
-                        <h3>
-                            Sobre
-                        </h3>
-                        <p>
-                            Tenho 32 anos e tranquei o curso de Psicologia para entrar na área de análise de dados.
-                            Trabalhei nos setores de comércio e serviços e também tenho experiência em rotinas administrativas. Venho estudando tecnologia da informação para trabalhar com análise de dados futuramente.
-                        </p>
-                    </article>
-                    <aside class="basic-information-content">
-                        <h3>
-                            Informações básicas
-                        </h3>
-                        <ul>
-                            <li>
-                                <span class="icon-container"><img src="assets/icons/location_on_FILL0_wght400_GRAD0_opsz24.svg" alt="icon de localização" class="icon"></span>
-                                <p class="basic-info">Santo Antônio de Pádua, RJ</p>
-                            </li>
-                            <li>
-                                <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+            </div>
+            <hr>
+            <div class="basic-container basic-information-container">
+                <article class="about-description">
+                    <h3>
+                        Sobre
+                    </h3>
+                    <p>
+                        Tenho 32 anos e tranquei o curso de Psicologia para entrar na área de análise de dados.
+                        Trabalhei nos setores de comércio e serviços e também tenho experiência em rotinas administrativas. Venho estudando tecnologia da informação para trabalhar com análise de dados futuramente.
+                    </p>
+                </article>
+                <aside class="basic-information-content">
+                    <h3>
+                        Informações básicas
+                    </h3>
+                    <ul>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/location_on_FILL0_wght400_GRAD0_opsz24.svg" alt="icon de localização" class="icon"></span>
+                            <p class="basic-info">Santo Antônio de Pádua - RJ</p>
+                        </li>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/mail_FILL0_wght400_GRAD0_opsz24.svg" alt="icon de localização" class="icon"></span>
+                            <p class="basic-info">rodolfomaia160@gmail.com</p>
+                        </li>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+                            <a href="https://wa.me/5522981636431" target="_blank">
                                 <p class="basic-info">22 98163 6431</p>
-                            </li>
-                            <li>
-                                <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+                            </a>
+                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
+                        </li>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+                            <a href="https://wa.me/5522997862312" target="_blank">
                                 <p class="basic-info">22 99786 2312</p>
-                            </li>
-                            <li>
-                                <span class="icon-container"><img src="assets/icons/mail_FILL0_wght400_GRAD0_opsz24.svg" alt="icon de localização" class="icon"></span>
-                                <p class="basic-info">rodolfomaia160@gmail.com</p>
-                            </li>
-                            <li>
-                                <span class="icon-container"><img src="assets/icons/002-linkedin.png" alt="icon de localização" class="icon"></span>
-                                <a href="https://www.linkedin.com/in/rodolfo-maia-12a340150/" target="_blank"><p class="basic-info">Rodolfo Maia</p></a>
-                                <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
-                            </li>
-                        </ul>
-                    </aside>
-                </div>
-            </div>
-            
-        </section>
-        <section class="" id="skills-section">
-            <div class="skill-container">
-
-            </div>
-        </section>
-        <section class="" id="experience-section">
-            <div class="experience-container">
-
+                            </a>
+                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
+                        </li>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/002-linkedin.png" alt="icon de localização" class="icon"></span>
+                            <a href="https://www.linkedin.com/in/rodolfo-maia-12a340150/" target="_blank"><p class="basic-info">Rodolfo Maia</p></a>
+                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
+                        </li>
+                        <li>
+                            <span class="icon-container"><img src="assets/icons/github.png" alt="icon de localização" class="icon"></span>
+                            <a href="https://github.com/rodolfomcosta" target="_blank"><p class="basic-info">rodolfomcosta</p></a>
+                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
+                        </li>
+                    </ul>
+                </aside>
             </div>
         </section>
     </div>
+    <section class="page-section light-bg" id="skills-section">
+        <div class="skill-container basic-container">
+            <article class="skills">
+                <h3>
+                    Habilidades
+                </h3>
+                <ul>
+                    <li>Proatividade</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Boa comunicação verbal e escrita</li>
+                    <li>Adaptabilidade</li>
+                    <li>Aprendizado rápido e contínuo</li>
+                    <li>Raciocínio lógico</li>
+                </ul>
+            </article>
+            <article class="competencies">
+                <h3>
+                    Competências
+                </h3>
+                <div class="competencies-container">
+                    <ul>
+                        <li>Python intermediário</li>
+                        <li>C básico</li>
+                        <li>Orientação a objetos</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Inglês técnico</li>
+                    </ul>
+                    <ul>
+                        <li>Pacote Office</li>
+                        <li>Edição de video e imagem</li>
+                        <li>Canva</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Premiere</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="page-section dark-bg" id="education-section">
+        <div class="education-container basic-container">
+            <article class="graduation">
+                <h3>
+                    Engenharia da Computação
+                </h3>
+                <h4>
+                    Instituto Federal Fluminense - Campus Campos Centro | 2023
+                </h4>
+                <p>
+                    Cursando - Em processo de transferência para Sistemas de Informação em Itaperuna-RJ
+                </p>
+            </article>
+            <article class="technical">
+                <h3>
+                    Técnico em Desenvolvimento de Sistemas - EAD
+                </h3>
+                <h4>
+                    Instituto Federal Sudeste de MG - Campus Avançado Ubá | 2023
+                </h4>
+                <p>
+                    Cursando
+                </p>
+            </article>
+            <article class="courses">
+                <h3>
+                    Cursos e Certificados
+                </h3>
+                <div class="courses-container">
+                    <ul class="courses-name">
+                        <li>Análise de dados</li>
+                        <li>Suporte de TI</li>
+                        <li>Python Avançado</li>
+                        <li>Intodução ao Python</li>
+                        <li>Desenvolvimento de Aplicativos</li>
+                    </ul>
+                    <ul class="courses-school">
+                        <li>Google e Coursera</li>
+                        <li>Google e Ciee</li>
+                        <li>IFMG</li>
+                        <li>Red Hat Academy</li>
+                        <li>Senai</li>
+                    </ul>
+                    <ul>
+                        <li>Cursando</li>
+                        <li>Cursando</li>
+                        <li>2023</li>
+                        <li>2023</li>
+                        <li>2022</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="page-section light-bg" id="experience-section">
+        <div class="experience-container basic-container">
+            <article class="professional">
+                <h3>
+                    Experiência profissional
+                </h3>
+                <div class="freelancer">
+                    <h4>
+                        Freelancer | 2021 - 2022
+                    </h4>
+                    <p>Garçom, criativos para redes sociais</p>
+                    <ul>
+                        <li>Garçom aos fins de semana;</li>
+                        <li>criação de materiais para mídias sociais.</li>
+                    </ul>
+                </div>
+                <div class="t2b">
+                    <h4>
+                        Hamburgueria Taberna | 2019 - 2020
+                    </h4>
+                    <p>Garçom e outras funções</p>
+                    <ul>
+                        <li>Caixa;</li>
+                        <li>controle de estoque;</li>
+                        <li>funções para preparação e produção de lanches;</li>
+                        <li>garçom;</li>
+                        <li>serviços gerais.</li>
+                    </ul>
+                </div>
+            </article>
+            <div class="separator"></div>
+            <article class="internship">
+                <h3>
+                    Estágios e projetos
+                </h3>
+                <div class="python">
+                    <h4>
+                        IFF Campos | 2023
+                    </h4>
+                    <p>Projeto de apoio Python Red Hat Academy</p>
+                    <ul>
+                        <li>Preparação de materiais sobre o conteúdo do curso;</li>
+                        <li>publicação dos materiais e gerenciamento da turma na plataforma google classroom;</li>
+                        <li>encontro semanal para discussão do material;</li>
+                        <li>relatório de acompanhamento semanal.</li>
+                    </ul>
+                </div>
+                <div class="reciclar">
+                    <h4>
+                        IF Sudeste de MG | 2023
+                    </h4>
+                    <p>Projeto Reciclar</p>
+                    <ul>
+                        <li>Elaboração de materiais sobre descarte de resíduos sólidos para publicação no instagram;</li>
+                        <li>elaboração de cartilha para conscientização da população local.</li>
+                    </ul>
+                </div>
+                <div class="mediador">
+                    <h4>
+                        Emdamda - Escola Municipalizada Dep. Armindo Marcílio Doutel de Andrade | 2021
+                    </h4>
+                    <p>Mediador escolar</p>
+                    <ul>
+                        <li>Acompanhamento de uma criança com deficiência intelectual no ambiente escolar;</li>
+                        <li>elaboração de material escolar adaptado;</li>
+                        <li>relatório de acompanhamento quinzenal.</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Criado por Rodolfo Maia
+        </p>
+    </footer>
 </body>
 </html>

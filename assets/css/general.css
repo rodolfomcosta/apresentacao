@@ -1,5 +1,24 @@
-.main-bg {
+.dark-bg {
     background-image: url("../images/pattern-randomized.svg");
     background-size: cover;
     background-position: right center;
+}
+
+.light-bg {
+    background-color: var(--main-color);
+}
+
+.page-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-container {
+    display: flex;
+    width: 80%;
+    max-width: 70rem;
+    background-color: var(--main-color);
 }

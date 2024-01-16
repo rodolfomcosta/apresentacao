@@ -13,8 +13,13 @@ body {
     font-family: var(--second-font);
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
 }
 
 ul {
@@ -31,4 +36,13 @@ hr {
     height: .1rem;
     border: 0px;
     background-color: var(--bg-color);
+}
+
+footer {
+    display: flex;
+    color: var(--main-color);
+    height: 3rem;
+    background-color: var(--bg-color);
+    align-items: center;
+    justify-content: center;
 }

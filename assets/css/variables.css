@@ -1,0 +1,9 @@
+:root {
+    --main-color: #EDEDED;
+    --bg-color: #171717;
+    --bg2-color: #444444;
+    --highlight-color: #DA0037;
+
+    --primary-font: 'Urbanist', sans-serif;
+    --second-font: 'Roboto', sans-serif;
+}

@@ -1,0 +1,21 @@
+.main-bg {
+    background-image: url("../images/pattern-randomized.svg");
+    background-size: cover;
+    background-position: right center;
+}
+
+#skills {
+    height: 100vh;
+}
+
+.skill-container {
+    height: 80vh;
+}
+
+#experience {
+    height: 100vh;
+}
+
+.experience-container {
+    height: 80vh;
+}

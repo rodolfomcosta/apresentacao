@@ -1,0 +1,65 @@
+.menu-spacing {
+    height: 3.9rem;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--bg2-color);
+    align-items: center;
+}
+
+.menu-container a {
+    color: var(--main-color);
+    align-items: center;
+    font-weight: bold;
+    display: block;
+    padding: 1rem;
+    position: relative;
+}
+
+.menu-container ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: .2rem;
+    background-color: var(--highlight-color);
+} 
+
+.menu-container ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    transition: all 300ms ease-in-out;
+} 
+
+.menu-container > a {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding: .3rem;
+    background-color: var(--highlight-color);
+    border-radius: .5rem;
+    box-shadow: inset .05rem .1rem .5rem .05rem #ededed6a;
+}
+
+.menu-container > a:hover {
+    box-shadow: inset .05rem .1rem .5rem .1rem #ededed3c;
+}
+
+.menu ul {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 28rem;
+
+}
+
+.menu li {
+}

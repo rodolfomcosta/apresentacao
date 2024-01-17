@@ -15,7 +15,7 @@
 .skills, .competencies {
     flex: 1;
     padding: 2rem;
-    margin-left: 2rem;
+    margin: 3rem;
 }
 
 .skills h3, .competencies h3 {

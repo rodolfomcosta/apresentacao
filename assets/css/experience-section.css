@@ -22,6 +22,10 @@
     flex-direction: column;
 }
 
+.professional {
+    margin-right: 2rem;
+}
+
 .separator {
     width: .1rem;
     background-color: var(--main-color);

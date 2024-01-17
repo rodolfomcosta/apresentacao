@@ -30,7 +30,7 @@
 
 .about-description, .basic-information-content {
     flex: 1;
-    margin: 1.5rem;
+    margin: 3rem;
 }
 
 .about-description h3, .basic-information-content h3 {

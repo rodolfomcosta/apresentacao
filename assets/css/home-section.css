@@ -13,10 +13,10 @@
     display: flex;
     width: 80%;
     max-width: 40rem;
-    height: 60%;
+
     justify-content: space-between;
     align-items: center;
-    margin: auto auto;
+    margin: 4rem auto;
 }
 
 .greeting-content p {

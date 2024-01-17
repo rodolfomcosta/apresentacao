@@ -47,3 +47,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 630px) {
+    .greeting-content {
+        flex-direction: column;
+    }
+}

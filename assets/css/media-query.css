@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 480px) {
     .menu-container {
         bottom: 0;
         text-align: center;
@@ -68,13 +68,4 @@
         border: .1rem solid var(--bg-color);
     }
 
-    .greeting-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .about-description, .basic-information-content {
-        margin: 1.5rem;
-    }
-    
 }

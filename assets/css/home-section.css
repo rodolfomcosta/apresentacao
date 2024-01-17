@@ -1,22 +1,20 @@
 .greeting-container {
-    border-radius: .8rem .8rem 0 0;
-    height: 40vh;
+    flex-direction: column;
 }
 
 #perfil-photo {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+    box-shadow: 0 0 .4rem .1rem rgba(0, 0, 0, 0.2)
 }
 
-.greeting-content {
+.greeting-content, .basic-information-container {
     display: flex;
-    width: 80%;
     max-width: 40rem;
-
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 4rem auto;
+    margin: 2rem;
 }
 
 .greeting-content p {
@@ -24,18 +22,28 @@
 }
 
 .basic-information-container {
-    border-radius: 0 0 .8rem .8rem;
-    height: 33vh;
+    align-items: baseline;
+}
+
+.description-profile {
+    text-align: center;
 }
 
 .about-description, .basic-information-content {
     flex: 1;
-    margin: 3rem;
+}
+
+.basic-information-content ul {
+    margin: auto;
+    width: 81%;
 }
 
 .about-description h3, .basic-information-content h3 {
+    text-align: center;
     margin-bottom: 1rem;
 }
+
+
 
 .basic-information-content li {
     display: flex;

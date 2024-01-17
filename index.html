@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/skills-section.css">
     <link rel="stylesheet" href="assets/css/experience-section.css">
     <link rel="stylesheet" href="assets/css/education-section.css">
+    <link rel="stylesheet" href="assets/css/media-query.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,57 +20,57 @@
     <title>Apresentação</title>
 </head>
 <body>
-    <div class="dark-bg">
-        <section class="home-section page-section" id="home-section">
-            <div class="menu-container">
-                <a href="curriculo.pdf" download="D:\Estudos\Projetos\apresentacao\curriculo.pdf" class="download">
-                    Currículo
-                    <span class="material-symbols-outlined">
-                        download
-                    </span>
-                </a>
-                <nav class="menu">
-                    <ul>
-                        <li>
-                            <a href="#home-section">Home</a>
-                        </li>
-                        <li>
-                            <a href="#skills-section">Habilidades</a>
-                        </li>
-                        <li>
-                            <a href="#education-section">Formação</a>
-                        </li>
-                        <li>
-                            <a href="#experience-section">Experiência</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="menu-spacing"></div>
-            <div class="basic-container greeting-container">
-                <div class="greeting-content">
-                    <div class="img-profile">
-                        <img src="assets/images/foto_perfil.jpg" alt="Uma foto de   perfil onde estou com óculos
-                            de grau e camisa cinza olhando de frente para a câmera" id="perfil-photo">
-                    </div>
-                    <div class="description-profile">
-                        <p class="greeting">
-                            Olá, estudo
-                        </p>
-                        <h1 id="career_name">
-                            análise de dados
-                        </h1>
-                        <p class="greeting">
-                            e me chamo
-                        </p>
-                        <h2 id="name">
-                            Rodolfo Maia
-                        </h2>
-                    </div>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <div class="menu-container">
+        <a href="curriculo.pdf" download="D:\Estudos\Projetos\apresentacao\curriculo.pdf" class="download" onclick="getElementById('close-menu').checked = false">
+            Currículo
+            <span class="material-symbols-outlined">
+                download
+            </span>
+        </a>
+        <nav class="menu">
+            <ul onclick="getElementById('close-menu').checked = false">
+                <li>
+                    <a href="#home-section">Home</a>
+                </li>
+                <li>
+                    <a href="#skills-section">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#education-section">Formação</a>
+                </li>
+                <li>
+                    <a href="#experience-section">Experiência</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home-section page-section dark-bg" id="home-section">
+        
+        <div class="menu-spacing"></div>
+        <div class="basic-container greeting-container">
+            <div class="greeting-content">
+                <div class="img-profile">
+                    <img src="assets/images/foto_perfil.jpg" alt="Uma foto de   perfil onde estou com óculos
+                        de grau e camisa cinza olhando de frente para a câmera" id="perfil-photo">
+                </div>
+                <div class="description-profile">
+                    <p class="greeting">
+                        Olá, estudo
+                    </p>
+                    <h1 id="career_name">
+                        análise de dados
+                    </h1>
+                    <p class="greeting">
+                        e me chamo
+                    </p>
+                    <h2 id="name">
+                        Rodolfo Maia
+                    </h2>
                 </div>
             </div>
-            <hr>
-            <div class="basic-container basic-information-container">
+            <div class="basic-information-container">
                 <article class="about-description">
                     <h3>
                         Sobre
@@ -119,8 +120,8 @@
                     </ul>
                 </aside>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
     <section class="page-section light-bg" id="skills-section">
         <div class="skill-container basic-container">
             <article class="skills">
@@ -308,6 +309,9 @@
             </article>
         </div>
     </section>
+    <a href="#home-section">
+        <img src="assets/icons/keyboard_arrow_up_FILL0_wght400_GRAD0_opsz24.svg" alt="Ir para a home" class="back-to-top">
+    </a>
     <footer>
         <p>
             Criado por Rodolfo Maia

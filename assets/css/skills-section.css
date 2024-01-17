@@ -1,9 +1,6 @@
 .skill-container {
-    display: flex;
-    flex-flow: column wrap;
-    height: 80vh;
+    flex-direction: column;
     background-color: var(--bg2-color);
-    border-radius: .8rem;
     box-shadow: 0 0 .4rem .1rem rgba(0, 0, 0, 0.3);
     color: var(--main-color);
 }
@@ -14,8 +11,7 @@
 
 .skills, .competencies {
     flex: 1;
-    padding: 2rem;
-    margin: 3rem;
+    padding: 3rem;
 }
 
 .skills h3, .competencies h3 {

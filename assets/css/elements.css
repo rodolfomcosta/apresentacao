@@ -43,7 +43,7 @@ footer {
     display: flex;
     color: var(--main-color);
     height: 3rem;
-    background-color: var(--bg-color);
+    background-color: var(--bg2-color);
     align-items: center;
     justify-content: center;
 }

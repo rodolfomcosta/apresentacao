@@ -1,6 +1,5 @@
 .experience-container {
     background-color: var(--bg2-color);
-    box-shadow: 0 0 .4rem .1rem rgba(0, 0, 0, 0.3);
     color: var(--main-color);
     padding: 2rem;
 }
@@ -27,13 +26,6 @@
 
 .internship {
     max-width: 30rem;
-}
-
-.separator {
-    width: .1rem;
-    background-color: var(--main-color);
-    transform: translateX(-1rem);
-    z-index: 0;
 }
 
 .experience-container h3 {

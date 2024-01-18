@@ -6,7 +6,7 @@
     display: none;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
     h1 {
         font-size: 3rem;
     }
@@ -94,7 +94,6 @@
 
     .basic-container {
         flex-flow: column nowrap;
-        height: 85vh;
         align-items: center;
         min-width: 100vw;
         border-radius: 0;
@@ -102,13 +101,9 @@
 
     .greeting-content {
         flex-direction: column;
-        margin-bottom: 0;
+        justify-content: space-around;
     }
-    /*
-    .greeting-container p {
-        font-size: 1.5rem;
-    }
-    */
+
     .description-profile h1,
     .description-profile h2,
     .description-profile p {
@@ -160,8 +155,7 @@
     }
 
     .basic-information-content {
-        margin-bottom: 1rem;
-
+        margin-bottom: 7rem;
     }
 
     .basic-information-content .icon {
@@ -198,4 +192,13 @@
         width: 100%;
     }
 
+    .separator {
+        left: 0;
+        display: none;
+    }
+
+    .professional, .internship {
+        min-width: 90%;
+        margin: 2rem auto;
+    }
 }

@@ -27,7 +27,6 @@
     width: 100%;
     border-collapse: collapse;
     /*border: .1rem solid var(--bg2-color);*/
-    border-radius: .2rem;
     font-size: 1rem;
     overflow: auto;
 }
@@ -36,8 +35,8 @@
     font-family: var(--primary-font);
     font-weight: bold;
     text-align: left;
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .courses-table th, .courses-table td {
@@ -49,5 +48,4 @@
 .courses-table th {
     background-color: var(--bg2-color);
     color: var(--main-color);
-    border-radius: .15rem;
 }

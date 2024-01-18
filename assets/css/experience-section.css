@@ -18,14 +18,7 @@
 /*    flex: 1;*/
     display: flex;
     flex-direction: column;
-}
-
-.professional {
-    margin-right: 2rem;
-}
-
-.internship {
-    max-width: 30rem;
+    width: 100%;
 }
 
 .experience-container h3 {

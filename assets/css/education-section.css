@@ -1,8 +1,7 @@
 .education-container {
     flex-direction: column;
-    min-height: 80vh;
+    min-height: 100vh;
     justify-content: space-around;
-    border-radius: .8rem;
     padding: 3rem;
     color: var(--bg-color);
 }
@@ -20,11 +19,13 @@
 }
 
 .graduation, .technical {
-    flex: 1;
+}
+
+.graduation, .technical, .courses-table {
+    width: 100%;
 }
 
 .courses-table {
-    width: 100%;
     border-collapse: collapse;
     /*border: .1rem solid var(--bg2-color);*/
     font-size: 1rem;

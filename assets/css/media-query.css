@@ -6,7 +6,7 @@
     display: none;
 }
 
-@media screen and (max-width: 560px) {
+@media (min-height: 740px) and (max-width: 560px) {
     h1 {
         font-size: 3rem;
     }
@@ -192,13 +192,13 @@
         width: 100%;
     }
 
-    .separator {
-        left: 0;
-        display: none;
+    .experience-container {
+        justify-content: space-around;
     }
 
-    .professional, .internship {
-        min-width: 90%;
-        margin: 2rem auto;
+    @media (orientation: landscape) {
+        .experience-container {
+            flex-direction: row;
+        }
     }
 }

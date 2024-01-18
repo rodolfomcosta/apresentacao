@@ -23,15 +23,31 @@
     flex: 1;
 }
 
-.courses-container {
-    display: flex;
+.courses-table {
+    width: 100%;
+    border-collapse: collapse;
+    /*border: .1rem solid var(--bg2-color);*/
+    border-radius: .2rem;
+    font-size: 1rem;
+    overflow: auto;
 }
 
-.courses-container ul {
-    flex: 1;
+.courses-table caption {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
 }
 
-.courses-container .courses-name{
-    flex: 2;
-    list-style: inside;
+.courses-table th, .courses-table td {
+    padding: .3rem;
+    text-align: left;
+    border-bottom: .1rem solid var(--bg2-color);
+}
+
+.courses-table th {
+    background-color: var(--bg2-color);
+    color: var(--main-color);
+    border-radius: .15rem;
 }

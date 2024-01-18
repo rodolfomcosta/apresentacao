@@ -93,30 +93,32 @@
                             <span class="icon-container"><img src="assets/icons/mail_FILL0_wght400_GRAD0_opsz24.svg" alt="icon de localização" class="icon"></span>
                             <p class="basic-info">rodolfomaia160@gmail.com</p>
                         </li>
-                        <li>
-                            <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
-                            <a href="https://wa.me/5522981636431" target="_blank">
-                                <p class="basic-info">22 98163 6431</p>
-                            </a>
-                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
-                        </li>
-                        <li>
-                            <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
-                            <a href="https://wa.me/5522997862312" target="_blank">
-                                <p class="basic-info">22 99786 2312</p>
-                            </a>
-                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
-                        </li>
-                        <li>
-                            <span class="icon-container"><img src="assets/icons/002-linkedin.png" alt="icon de localização" class="icon"></span>
-                            <a href="https://www.linkedin.com/in/rodolfo-maia-12a340150/" target="_blank"><p class="basic-info">Rodolfo Maia</p></a>
-                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
-                        </li>
-                        <li>
-                            <span class="icon-container"><img src="assets/icons/github.png" alt="icon de localização" class="icon"></span>
-                            <a href="https://github.com/rodolfomcosta" target="_blank"><p class="basic-info">rodolfomcosta</p></a>
-                            <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="icon"></span>
-                        </li>
+                        <div class="links-container">
+                            <li>
+                                <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+                                <a href="https://wa.me/5522981636431" target="_blank">
+                                    <p class="basic-info">22 98163 6431</p>
+                                </a>
+                                <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="external-icon"></span>
+                            </li>
+                            <li>
+                                <span class="icon-container"><img src="assets/icons/001-whatsapp.png" alt="icon de localização" class="icon"></span>
+                                <a href="https://wa.me/5522997862312" target="_blank">
+                                    <p class="basic-info">22 99786 2312</p>
+                                </a>
+                                <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="external-icon"></span>
+                            </li>
+                            <li>
+                                <span class="icon-container"><img src="assets/icons/002-linkedin.png" alt="icon de localização" class="icon"></span>
+                                <a href="https://www.linkedin.com/in/rodolfo-maia-12a340150/" target="_blank"><p class="basic-info">Rodolfo Maia</p></a>
+                                <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="external-icon"></span>
+                            </li>
+                            <li>
+                                <span class="icon-container"><img src="assets/icons/github.png" alt="icon de localização" class="icon"></span>
+                                <a href="https://github.com/rodolfomcosta" target="_blank"><p class="basic-info">rodolfomcosta</p></a>
+                                <span class="icon-container"><img src="./assets/icons/external-link.png" alt="indicação de link externo" class="external-icon"></span>
+                            </li>
+                        </div>
                     </ul>
                 </aside>
             </div>
@@ -147,7 +149,7 @@
                         <li>C básico</li>
                         <li>Orientação a objetos</li>
                         <li>HTML</li>
-                        <li>CSS</li>
+                        <li>CSS básico</li>
                         <li>Inglês técnico</li>
                     </ul>
                     <ul>
@@ -197,32 +199,43 @@
                 </p>
             </article>
             <article class="courses">
-                <h3>
-                    Cursos e Certificados
-                </h3>
-                <div class="courses-container">
-                    <ul class="courses-name">
-                        <li>Análise de dados</li>
-                        <li>Suporte de TI</li>
-                        <li>Python Avançado</li>
-                        <li>Intodução ao Python</li>
-                        <li>Desenvolvimento de Aplicativos</li>
-                    </ul>
-                    <ul class="courses-school">
-                        <li>Google e Coursera</li>
-                        <li>Google e Ciee</li>
-                        <li>IFMG</li>
-                        <li>Red Hat Academy</li>
-                        <li>Senai</li>
-                    </ul>
-                    <ul>
-                        <li>Cursando</li>
-                        <li>Cursando</li>
-                        <li>2023</li>
-                        <li>2023</li>
-                        <li>2022</li>
-                    </ul>
-                </div>
+                <table class="courses-table">
+                    <caption>Cursos e Certificados</caption>
+                    <thead>
+                        <tr>
+                            <th>Curso</th>
+                            <th>Instituição</th>
+                            <th>Ano</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Análise de dados</td>
+                            <td>Google e Coursera</td>
+                            <td>Cursando</td>
+                        </tr>
+                        <tr>
+                            <td>Suporte de TI</td>
+                            <td>Google e Ciee</td>
+                            <td>Cursando</td>
+                        </tr>
+                        <tr>
+                            <td>Python Avançado</td>
+                            <td>IFMG</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Intodução ao Python</td>
+                            <td>Red Hat Academy</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Desenvolvimento de Aplicativos</td>
+                            <td>Senai</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
         </div>
     </section>

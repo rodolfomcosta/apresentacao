@@ -43,8 +43,6 @@
     margin-bottom: 1rem;
 }
 
-
-
 .basic-information-content li {
     display: flex;
 }
@@ -55,10 +53,17 @@
     align-items: center;
 }
 
+.basic-information-content .external-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
 .icon-container {
     display: flex;    
     align-items: center;
 }
+
+
 
 .basic-info {
     margin: .2rem .5rem;

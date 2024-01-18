@@ -33,6 +33,7 @@
     width: .1rem;
     background-color: var(--main-color);
     transform: translateX(-1rem);
+    z-index: 0;
 }
 
 .experience-container h3 {
